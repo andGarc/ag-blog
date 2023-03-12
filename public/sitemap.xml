@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url><url>
-    <loc>https://example.com/blog/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/blog/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/blog/markdown/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/blog/markdown/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/markdown-syntax-guide/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/markdown-syntax-guide/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/blog/syntax/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/blog/syntax/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/hugo/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/hugo/</loc>
   </url><url>
-    <loc>https://example.com/my-new-page/</loc>
+    <loc>https://skitter-beautiful-soil.glitch.me/my-new-page/</loc>
   </url>
 </urlset>
