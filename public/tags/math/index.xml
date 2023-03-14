@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Andres Garcia</title>
-    <link>https://example.com/blog/</link>
-    <description>Recent content in Blog on Andres Garcia</description>
+    <title>math on Andres Garcia</title>
+    <link>https://example.com/tags/math/</link>
+    <description>Recent content in math on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Andres Garcia</copyright>
-    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a set?</title>
       <link>https://example.com/blog/placeholder-text/</link>
@@ -16,15 +16,6 @@
       <guid>https://example.com/blog/placeholder-text/</guid>
       <description>TL;DR A set is an unordered collection of distinct objects Two sets are equal if they have exactly the same elements The size of a set is called cardinality; there exists finite and infinite sets A is a subset of B, if every element of A is also an element of B I am a set with no elements, Yet I am not empty. What am I?
 Answer: A set.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://example.com/blog/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>

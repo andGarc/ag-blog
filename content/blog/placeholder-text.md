@@ -1,42 +1,119 @@
 +++
-author = "Hugo Authors"
-title = "Placeholder Text"
-date = "2019-03-09"
-description = "Lorem Ipsum Dolor Si Amet"
+author = "Andres Garcia"
+title = "What is a set?"
+date = "2023-03-13"
+description = "What are sets? Short description about sets. "
 tags = [
-    "markdown",
-    "text",
+    "basics",
+    "math",
+    "ml",
 ]
 +++
 
-Lorem est tota propiore conpellat pectoribus de pectora summo. <!--more-->Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+### TL;DR 
+- A set is an unordered collection of distinct objects
+- Two sets are equal if they have exactly the same elements
+- The size of a set is called cardinality; there exists finite and infinite sets
+- A is a subset of B, if every element of A is also an element of B
 
-1. Exierant elisi ambit vivere dedere
-2. Duce pollice
-3. Eris modo
-4. Spargitque ferrea quos palude
+>I am a set with no elements,
+>Yet I am not empty.
+>What am I?  
+> Answer: A set.
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+## What is a set?
+A set is a unordered collection of distinct objects.   
+Objects in a set are also called members or elements.
+```
+N = {1,2,3,4,5} is a set of decimal digits 
+``` 
 
-1. Comas hunc haec pietate fetum procerum dixit
-2. Post torum vates letum Tiresia
-3. Flumen querellas
-4. Arcanaque montibus omnes
-5. Quidem et
+Elements in a set can also be characterized by stating the property or properties they must have to be members of this set.  
+```
+N = {0, 2, 4, 6, 8} 
+N = {x | x is an even integer and x <= 0 < 10}
+``` 
 
-# Vagus elidunt
+Sets can contain seeminly unrelated elements.  
+```
+A = {l2, color, T, Orange}
+``` 
 
-<svg class="canon" xmlns="http://www.w3.org/2000/svg" overflow="visible" viewBox="0 0 496 373" height="373" width="496"><g fill="none"><path stroke="#000" stroke-width=".75" d="M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515"></path><path stroke="#ED1C24" stroke-width=".75" d="M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z"></path><path stroke="#000" stroke-width=".75" d="M.479.375h495v372h-495zM247.979.875v372"></path><ellipse cx="498.729" cy="177.625" rx=".75" ry="1.25"></ellipse><ellipse cx="247.229" cy="377.375" rx=".75" ry="1.25"></ellipse></g></svg>
+## Cadinality of a set
+Cardinality is the size of a set.  
+A set contains its elements.  
 
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
+Notation:  
+    ∈ - belongs  
+    ∉ - does not belong 
 
-## Mane refeci capiebant unda mulcebat
+```
+A ∈ {A, B, C}, A belings to the set
+1 ∉ {0, 2, 3}, 1 does not belong to the set
+```
 
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. **Faces illo pepulere** tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
+If a set has a fininte number of elements, *n*, we say that a set has a cardinality of n.  
+In other words, only finite sets can have a cardinality.  
 
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
+Notation:  
+    |S| - cadinality
 
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel **mitis temploque** vocatus, inque alis, *oculos nomen* non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides **parte**.
+```
+S = {1, 2}  
+|S| = 2, the cardinality of S is 2
+```
+
+Sets can contain other sets.  
+Sets can be empty. The cardinality of an empty set is 0. 
+
+Notation:  
+    {} - empty set
+```
+|{}| = 0, the cardinality of the empty set is 0
+```
+
+***Important:***  because sets can contain other sets the cardinality of {{}} is 1. {{}} is a set containing 1 element which is an empty set.
+
+## Equality
+Sets are considered equal if they have exactly the same members. Order does not matter.
+```
+A = {1, 2, 3}
+B = {3, 2, 1}
+A = B, set A is equal to set B
+```
+
+## Subsets
+A set A is called a subset of B if every elemet of A is also in B.  
+B is the superset of A.  
+
+Notation:  
+    ⊆ - subset
+	⊈ - not a subset
+```
+A = {1, 2} 
+B = {2, 5}   
+C = {1, 2, 3 ,4}  
+
+A ⊆ C, A is a subset of B  
+B ⊈ C, B is not a seubset of C
+```  
+
+***Note:*** an empty set is a subset of any set, including the empty set itself. Any set is a subset of itself. Also, an empty set is a proper subset of any set except for itself.
+`{}⊆{}`, but `{}⊄{}`.
+
+### What is a proper subset?
+A is a proper subset of B if and only if every element of A is also an element of B, and there exist at least one element of B that is not in A.  
+
+Notation:  
+    ⊂ - proper subset  
+
+```
+A = {A, B}  
+B = {A, B, C}  
+
+A ⊂ B, proper subset
+B ⊆ B, it is not a proper subset. 
+```  
 
 {{< css.inline >}}
 <style>
