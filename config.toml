@@ -28,7 +28,7 @@ enableRobotsTXT = true
 # see https://gohugo.io/content-management/multilingual/
 [languages]
   [languages.en]
-    title = "Andres Garcia"
+    title = "Andres"
     languageName = "en-US 🇺🇸"
     LanguageCode = "en-US"
     contentDir = "content"
