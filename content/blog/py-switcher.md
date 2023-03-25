@@ -12,7 +12,7 @@ tags = [
 ### TL;DR 
 - Before version 3.10, Python never had a feature similar to the switch statement in other programming languages  
 - Dictionary mapping can be used as a work around
-- Keys act as cases in a swith statement  
+- Keys act as cases in a switch statement  
 
 >Why did the Python dictionary break up with the JS object?  
 >Because the dictionary found the object too "undefined"   
@@ -22,6 +22,8 @@ tags = [
 A switch statement in Java might look like this:
 ```java
 // switch case to get the string representation of month number
+int month = 1;
+String monthString;
 switch(month) {
     case 1: month = "January";
             break;
@@ -30,9 +32,12 @@ switch(month) {
     .
     .
     .
-    default: month = 'Invalid Month';
+    default: month = "Invalid Month";
             break;
 }
+
+System.out.println("Month " + month + " is " + monthString);
+// Month 1 is January
 ```
 
 Python dictionaries contain `key:value` pairs.  
