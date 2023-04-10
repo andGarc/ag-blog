@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Andres Garcia</copyright>
-    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dataviz</title>
+      <link>https://example.com/tags/dataviz/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/dataviz/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>basics</title>
       <link>https://example.com/tags/basics/</link>
-      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/tags/basics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://example.com/tags/python/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/python/</guid>
       <description></description>
     </item>
     

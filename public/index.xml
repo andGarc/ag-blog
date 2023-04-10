@@ -7,7 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Andres Garcia</copyright>
-    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gestalt Principles</title>
+      <link>https://example.com/blog/gestalt-principles/</link>
+      <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/gestalt-principles/</guid>
+      <description>TL;RD The Gestalt principles can be used to understand how people interact with and create order out of visual stimuli.
+There are 6 principles:
+1. Proximity: Things that are close together are perceived as belonging together. 2. Similarity: Things that look similar are perceived as belonging together. 3. Continuity: Our brains prefer to see smooth and continuous paths, even if there are gaps or interruptions. 4. Closure: Our brains tend to fill in missing information to create a complete image or object.</description>
+    </item>
+    
+    <item>
+      <title>Switch Case in Python</title>
+      <link>https://example.com/blog/py-switcher/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/blog/py-switcher/</guid>
+      <description>TL;DR Before version 3.10, Python never had a feature similar to the switch statement in other programming languages Dictionary mapping can be used as a work around Keys act as cases in a switch statement Why did the Python dictionary break up with the JS object?
+Because the dictionary found the object too &amp;ldquo;undefined&amp;rdquo;
+Implementing a switch case replacement using Python dictionary mapping A switch statement in Java might look like this:</description>
+    </item>
+    
     <item>
       <title>What is a set?</title>
       <link>https://example.com/blog/placeholder-text/</link>
