@@ -38,7 +38,7 @@ enableRobotsTXT = true
 
 [params]
   # The description of your website
-  description = "Bear Cub Demo"
+  description = "AG Blog"
 
   # The path to your favicon
   favicon = "images/favicon.png"
