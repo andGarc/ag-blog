@@ -64,7 +64,7 @@ query = f"SELECT * FROM table"
 df = pd.read_sql_query(text(query), engine.connect())
 ```
 
-**Note:** Pandas 2.0.0 is now available and recommenrded fix is actually to upgreade to the to the latest Pandas version
+**Note:** Pandas 2.0.0 is now available and the recommenrded fix is actually to upgreade to the to the latest Pandas version
 
 {{< css.inline >}}
 <style>
